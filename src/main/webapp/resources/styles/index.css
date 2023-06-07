@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Sofia', sans-serif;
+    color: white;
+}
+
+
+#clock {
+    color: #ffffff;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header {
+    color: white;
+    margin-top: 30px;
+    font-size: 20pt;
+    text-align: center;
+    padding: 5%;
+}
+
+.header-color {
+    background-color: white;
+    height: 20px;
+}
+
+.redirectionLink {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Sofia", sans-serif;
+    color: #95c56b;
+    border-radius: 0.75em;
+    font-size: 20px;
+    padding: 10px 30px;
+    width: 50%;
+    text-decoration: none;
+}
+
